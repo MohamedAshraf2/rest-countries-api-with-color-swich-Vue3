@@ -43,7 +43,7 @@
             :class="{ dark: dark }"
             v-model="filterOptions.region"
           >
-            <option value="">All regions</option>
+            <option value="" class="dropdown-item btn">All regions</option>
 
             <option
               v-for="(reg, index) in regions"
